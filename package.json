@@ -1,0 +1,43 @@
+{
+  "name": "react-scaffold",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.13.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
+    "redux": "^3.5.2",
+    "redux-promise": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "http-server": "^0.9.0",
+    "node-sass": "^3.8.0",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.development.js",
+    "build": "webpack --config webpack.production.js",
+    "start": "npm run build && http-server dist"
+  },
+  "author": "shyling",
+  "license": "ISC",
+  "description": "react scaffold"
+}
